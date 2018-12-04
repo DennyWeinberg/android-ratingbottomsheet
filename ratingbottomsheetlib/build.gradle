@@ -1,9 +1,9 @@
-apply plugin: 'com.android.application'
+apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 28
+
     defaultConfig {
-        applicationId "com.levionsoftware.lib.ratingbottomsheet"
         minSdkVersion 21
         targetSdkVersion 28
         versionCode 101
@@ -28,6 +28,4 @@ dependencies {
     implementation "androidx.appcompat:appcompat:${supportxLibVersion}"
     implementation "com.google.android.material:material:${supportxLibVersion}"
     implementation "androidx.constraintlayout:constraintlayout:2.0.0-alpha2"
-
-    implementation project(path: ':ratingbottomsheetlib')
 }

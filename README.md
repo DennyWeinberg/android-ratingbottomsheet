@@ -1,6 +1,8 @@
 # Android Rating Bottom Sheet
 =============================
 
+[![](https://jitpack.io/v/DennyWeinberg/android-ratingbottomsheet.svg)](https://jitpack.io/#DennyWeinberg/android-ratingbottomsheet)
+
 It's an Android Material Design Rating Bottom Sheet using AndroidX Architecture.
 
 ![Preview](assets/preview.png?raw=true "Preview")

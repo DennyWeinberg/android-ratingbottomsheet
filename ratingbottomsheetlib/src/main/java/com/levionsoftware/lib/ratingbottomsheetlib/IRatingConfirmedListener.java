@@ -1,4 +1,4 @@
-package com.levionsoftware.lib.ratingbottomsheet.lib;
+package com.levionsoftware.lib.ratingbottomsheetlib;
 
 /**
  * Created by Denny on 31.12.2015.

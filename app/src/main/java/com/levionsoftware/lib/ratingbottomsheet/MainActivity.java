@@ -6,10 +6,8 @@ import android.os.Handler;
 import android.view.View;
 import android.widget.Toast;
 
-import com.levionsoftware.lib.ratingbottomsheet.lib.IRatingConfirmedListener;
-import com.levionsoftware.lib.ratingbottomsheet.lib.RatingBottomSheet;
-
-import java.util.Random;
+import com.levionsoftware.lib.ratingbottomsheetlib.IRatingConfirmedListener;
+import com.levionsoftware.lib.ratingbottomsheetlib.RatingBottomSheet;
 
 public class MainActivity extends AppCompatActivity {
 
