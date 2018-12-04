@@ -27,13 +27,8 @@ rbs.setRating(new Short("3"));
 rbs.setOnInputConfirmedListener(new IRatingConfirmedListener() {
     @Override
     public void onInputConfirmed(final short rating) {
-        new Handler().postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                rbs.dismiss();
-                Toast.makeText(MainActivity.this, "Rating: " + String.valueOf(rating), Toast.LENGTH_SHORT).show();
-            }
-        }, 200);
+        rbs.dismiss();
+        Toast.makeText(MainActivity.this, "Rating: " + String.valueOf(rating), Toast.LENGTH_SHORT).show();
     }
 });
 rbs.show(getSupportFragmentManager(), null);```
