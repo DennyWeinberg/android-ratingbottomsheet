@@ -2,7 +2,7 @@
 
 [![](https://jitpack.io/v/DennyWeinberg/android-ratingbottomsheet.svg)](https://jitpack.io/#DennyWeinberg/android-ratingbottomsheet)
 
-It's an Android Material Design Rating Bottom Sheet using AndroidX Architecture.
+It's an Android Material Design Rating Bottom Sheet using [Android Jetpack Components (2018)](https://developer.android.com/jetpack/) ([androidx.* package libraries](https://developer.android.com/jetpack/androidx/)) and [Android Material Design Components](https://material.io/develop/android/).
 
 ![Preview](assets/preview.png?raw=true "Preview")
 
