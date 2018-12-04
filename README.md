@@ -1,5 +1,4 @@
 # Android Rating Bottom Sheet
-=============================
 
 [![](https://jitpack.io/v/DennyWeinberg/android-ratingbottomsheet.svg)](https://jitpack.io/#DennyWeinberg/android-ratingbottomsheet)
 
@@ -16,7 +15,7 @@ repositories {
 }
 
 dependencies {
-  implementation 'com.github.DennyWeinberg:android-ratingbottomsheet:1.0.0'
+  implementation 'com.github.DennyWeinberg:android-ratingbottomsheet:[VERSION/TAG]'
 }
 ```
 
