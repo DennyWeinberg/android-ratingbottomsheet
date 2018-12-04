@@ -22,13 +22,18 @@ dependencies {
 Usage
 -----
 
-```final RatingBottomSheet rbs = new RatingBottomSheet();
-rbs.setRating(new Short("3"));
-rbs.setOnInputConfirmedListener(new IRatingConfirmedListener() {
-    @Override
-    public void onInputConfirmed(final short rating) {
-        rbs.dismiss();
-        Toast.makeText(MainActivity.this, "Rating: " + String.valueOf(rating), Toast.LENGTH_SHORT).show();
-    }
-});
-rbs.show(getSupportFragmentManager(), null);```
+    final RatingBottomSheet rbs = new RatingBottomSheet();
+    rbs.setRating(new Short("3"));
+    rbs.setOnInputConfirmedListener(new IRatingConfirmedListener() {
+        @Override
+        public void onInputConfirmed(final short rating) {
+            rbs.dismiss();
+            Toast.makeText(MainActivity.this, "Rating: " + String.valueOf(rating), Toast.LENGTH_SHORT).show();
+        }
+    });
+    rbs.show(getSupportFragmentManager(), null);
+
+Apps using this library
+-----------------------
+https://play.google.com/store/apps/details?id=com.levionsoftware.photos
+https://play.google.com/store/apps/details?id=com.levionsoftware.instagram_map
